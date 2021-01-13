@@ -1,12 +1,12 @@
 body {
-  background-color: aqua;
+  background-color:#e6d1d1;
 }
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: yellow;
 }
 
 li {
@@ -25,16 +25,16 @@ li a:hover {
   color: black;
 }
 
-/*.section-1 {
+.section-1 {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
 
-}*/
+}
 
-/* article {
+ article {
   display: flex;
   flex-flow: row wrap;
-} */
+} 
 
 section {
   font-family: "Times New Roman", Times, serif;
@@ -55,4 +55,13 @@ border: 1px solid red;
   text-align: center;
   background-color: black
   color white;
+}
+
+h1 {
+  color:tomato;
+}
+
+.flex-container {
+  display: flex;
+  margin-top: 50px;
 }

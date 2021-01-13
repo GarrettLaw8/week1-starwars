@@ -1,4 +1,4 @@
-body{
+body {
   background-color: aquamarine;
 }
 
@@ -6,50 +6,49 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color:gray;
+  background-color: gray;
 }
 
 li {
   float: center;
 }
- li a {
-   display: block;
-   color: white;
-   text-align: left;
-   padding: 14px 16px;
-   text-decoration: none;
-   background-color: gray;
- }
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: gray;
+}
 
+li a:hover {
+  background-color: red;
+  color: black;
+}
 
- li a:hover {
-   background-color: red;
-   color: black;
- }
-
- section {
-  font-family:'Courier New', Courier, monospace;
+section {
+  font-family: "Courier New", Courier, monospace;
   padding: 25px;
- }
+}
 
- .card img{
-   height: 400px;
- }
- 
- .card{
+.card img {
+  height: 400px;
+}
+
+.card {
   margin: 10px;
   border: 3px solid red;
   padding: 10px;
- }
+}
 
- .card-container {
+.card-container {
   display: flex;
   flex-flow: row wrap;
   padding: 40px;
- }
+}
 
- .card h2 {
-   text-align: center;
-   background-color: black;
-   color: white;
- }
+.card h2 {
+  text-align: center;
+  background-color: black;
+  color: white;
+}
